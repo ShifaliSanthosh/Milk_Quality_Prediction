@@ -10,3 +10,7 @@ This isn't the fully improved version. Output is as shown:
 
 ![image](https://github.com/ShifaliSanthosh/Milk_Quality_Prediction/assets/116059111/fbec6008-629d-42fb-a24b-25380657100a)
 
+Code description:
+Necessary libraries like that of load_wine from sklearn.datasets are imported to train the dataset, while SVC is imported to create the SVM classifier. Other libraries like that of pandas to read and manipulate data and joblib for loading the trained model are utilized. 
+pd.read_csv() is to read the dataset as part of the csv file. Input features (X) and target variables (Y) are the main split of the dataset. The training part consists of 60% data while the testing set contains the remaining 40%. 
+After the training of the dataset on the SVM classifier, the test set is used to make predictions using the needed functions. The accuracy and metric scores are given as output. Finally, the model is saved and loaded back.
